@@ -3,7 +3,7 @@ import './App.css';
 export const Balance = (props) => {
     return (
         <div>
-            <h1>Expence Tracker</h1>
+            <h1>Expense Tracker</h1>
             <h3 >Your Balance</h3>
             <h1 className="money">${props.amount+props.expence}</h1>
             <div className="IncomeExpence">
